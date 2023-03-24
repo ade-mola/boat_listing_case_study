@@ -14,3 +14,7 @@ The product manager would consider using the model if, on average, the predictio
 
 ## Result
 CatBoostRegressor model gives a MAPE result of 0.5 (50%).
+
+## Streamlit Deployment
+
+[ML App](https://ade-mola-boat-listing-case-study-app-b1in5j.streamlit.app/)
