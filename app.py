@@ -125,6 +125,8 @@ class BoatListingApp:
         The model takes inputs such as the boat's location, boat type, 
         manufacturer, price, age, and others, and predicts the number of views the listing will receive.
 
+        <a href="https://github.com/ade-mola/boat_listing_case_study">GitHub Codebase</a>
+
         <div style="background-color:#f63366;
                     border-radius: 25px;
                     padding:5px">
