@@ -140,13 +140,13 @@ class BoatListingApp:
     def get_input_data(self):
         location = st.selectbox("Choose a Location: ", self.LOCATIONS)
         boat_type = st.selectbox("Choose a Boat Type: ", self.BOAT_TYPES)
-        price_usd = st.text_input("Input Price of Boat: ")
+        price_usd = st.text_input("Input Price (USD) of Boat: ")
         manufacturer = st.selectbox("Choose a Manufacturer: ", self.MANUFACTURERS)
         material = st.selectbox("Choose a Material: ", self.MATERIALS)
         age = st.text_input("Input Age of Boat: ")
         boat_condition = st.selectbox("Choose Boat Condition: ", self.BOAT_CONDITIONS)
-        length = st.text_input("Input Length of Boat: ")
-        width = st.text_input("Input Width of Boat: ")
+        length = st.text_input("Input Length (meters) of Boat: ")
+        width = st.text_input("Input Width (meters) of Boat: ")
         engine_type = st.selectbox("Choose Boat Condition: ", self.ENGINE_TYPES)
 
         data = {
