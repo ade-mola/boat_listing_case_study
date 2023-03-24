@@ -1,8 +1,6 @@
 import pickle
 import pandas as pd
 import streamlit as st
-import catboost
-from catboost import CatBoostRegressor
 
 
 class BoatListingModel:
