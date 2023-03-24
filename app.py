@@ -114,7 +114,7 @@ class BoatListingApp:
     )
 
     def __init__(self):
-        self.model = BoatListingModel("models/boat_listing_model.pickle")
+        self.model = BoatListingModel("./models/boat_listing_model.pickle")
 
     def show_header(self):
         st.title("Boat Listing Optimisation using Predictive Analytics")
